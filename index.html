@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Poppins font taken from Google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>My Portfolio</title>
+    <script src="javascript/index.js"></script>
+</head>
+<body>
+    <!-- Header section -->
+    <header class="main-header">
+            <div class="hamburger">
+                <img src="images/hamburger.png" alt="hamburger image which has 3 horizontal bars" height="25" width="25">
+            </div>
+            <!-- Navbar section -->
+            <nav class="navbar">
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="/documents/CV.pdf">CV</a></li>
+                </ul>
+            </nav>
+            <div class="portfoli-logo">
+                <img src="images/kav.png" alt="Portfolio logo containing the text KAV placed inside a circle" height="50" width="50">
+            </div>
+            <div class="contact-button">
+                <form action="#contact-me">
+                    <button type="submit" class="contact">Contact</button>
+                </form>
+                <div class="modes">
+                    <img src="images/light.png" alt="light-mode-sun-image" id="mode">
+                </div>
+            </div>   
+            
+    </header>
+    <!-- Main section -->
+    <main class="main-content">
+        <!-- Introduction section -->
+        <section class="intro">
+            <div class="web-dev-intro">
+                <h1 class="web-dev">Front-End Developer</h1>
+                <p>Passionate Front-end developer with a knack for creating intuitive and high-performing web applications. </p>
+            </div>
+            <div class="web-dev-logo">
+                <img src="images/WD.png" alt="Image contains closing tags of HTML with code inside the tags" height="400" width="400">
+            </div>
+        </section>
+        <!-- About me section -->
+        <section class="about-me" id="about-me">
+            <div class="profile-picture">
+                <img src="images/profile-pic.png" alt="profile picture of Kaverappa with a black background">
+            </div>
+            <div class="about-me-content">
+                <h1>Hi, I’m Kaverappa Web Developer</h1>
+                <p>Forward-thinking Software Engineer with background working productively in dynamic environments.</p>
+                <p>Fluent in Python and Shell programming languages used to develop software. Javascript lover and 
+                    interested in Front-end development.</p> 
+                <p>Problem Solver, well-organised, loyal employee and proud team player focused on achieving project objectives with speed and accuracy.</p>
+            </div>
+        </section>
+        <!-- Skills and Experience section -->
+        <section class="skills" id="skills">
+            <div class="skills-heading">
+                <h1>Skills and Experience</h1>
+            </div>
+            <div class="skills-logo">
+                <div class="html">
+                    <img id="html" src="images/html.png" alt="black and white logo of html 5" height="150" width="150">
+                </div>
+                <div class="css">
+                    <img id="css" src="images/css.png" alt="black and white logo of CSS" height="150" width="150">
+                </div>
+                <div class="js">
+                    <img id="js" src="images/js.png" alt="black and white logo of Javascript" height="150" width="150">
+                </div>
+                <div class="react">
+                    <img id="react" src="images/react.png" alt="black and white logo of ReactJS" height="150" width="150">
+                </div>
+                <div class="figma">
+                    <img id="figma" src="images/figma.png" alt="black and white logo of Figma" height="150" width="150">
+                </div>
+                <div class="python">
+                    <img id="python" src="images/python.png" alt="black and white logo of Python" height="150" width="150">
+                </div>
+                <div class="github">
+                    <img id="github" src="images/git.png" alt="black and white logo of GitHub" height="150" width="150">
+                </div>
+                <div class="vscode">
+                    <img id="vscode" src="images/vscode.png" alt="black and white logo of Visual Studio Code" height="150" width="150">
+                </div>
+                <div class="shell">
+                    <img id="shell" src="images/shell.png" alt="black and white logo of Shell Programming" height="150" width="150">
+                </div>
+                <div class="linux">
+                    <img id="linux" src="images/linux.png" alt="black and white logo of Linux OS" height="150" width="150">
+                </div>
+            </div>
+        <!-- Contact section -->
+        </section>
+        <section class="contact-me" id="contact-me">
+            <div class="contact-heading">
+                <h1>Let's get in touch</h1>
+            </div>
+            <div class="contact-form">
+                <div class="fname">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Enter your First Name">
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Enter your Last Name">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Enter your Email">
+                </div>
+                <div class="message">
+                    <label id="message">Message</label>
+                    <textarea id="messages" name="message" placeholder="Enter your Message"></textarea>
+                </div>
+            </div>
+            <div class="send-button">
+				<button class="submit" type="submit">Send</button>
+			</div>
+        </section>
+    </main>
+    <!-- Footer section -->
+    <footer class="footer-wrapper">
+        <div class="copyright">
+            &copy;2023 Kaverappa K U
+        </div>
+        <div class="social">
+            <a href="https://github.com/KaverappaKU">
+                <img id="git" src="images/github.png" alt="This is a black and white logo of GitHub" height="50" width="50">
+            </a>
+            <a href="https://www.linkedin.com/in/kaverappaku/">
+                <img id="linkedin" src="images/linkedin.png" alt="This is a black and white logo of LinkedIn" height="50" width="50">
+            </a>      
+        </div>
+    </footer>
+</body>
+</html>
